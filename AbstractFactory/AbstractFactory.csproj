@@ -41,8 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractBottle.cs" />
+    <Compile Include="AbstractFactory.cs" />
+    <Compile Include="AbstractWarer.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="CocaColaFactory.cs" />
+    <Compile Include="CocaColaWater.cs" />
+    <Compile Include="ColcaColaBottle.cs" />
+    <Compile Include="PepsiBottle.cs" />
+    <Compile Include="PepsiFactory.cs" />
+    <Compile Include="PepsiWater.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
